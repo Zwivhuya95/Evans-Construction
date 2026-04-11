@@ -1,0 +1,21 @@
+body {margin: 0; font-family: Arial;}
+header {position: fixed; width: 100%; background: black; color: white; padding: 10px;}
+nav a {color: white; margin: 10px; text-decoration: none;}
+/* SLIDES */
+.container {height: 100vh; overflow-y: scroll; scroll-snap-type: y mandatory;}
+.slide {height: 100vh; scroll-snap-align: start; display: flex; justify-content: center; flex-direction: column; text-align: center;}
+.dark {background: #111; color: white;}
+.hero {background: url('../images/logo.jpg') center/cover no-repeat; color: white;}
+/* ANIMATION */
+.fade {opacity: 0; transform: translateY(40px); transition: 1s;}
+.fade.show {opacity: 1; transform: translateY(0);}
+/* WHATSAPP */
+.whatsapp {position: fixed; bottom: 20px; right: 20px; background: green; color: white; padding: 15px; border-radius: 50%;}
+/* logo */
+.logo {width: 80px;}
+/* HERO LOGO (BIG CENTER LOGO) */
+.hero-logo {width: 150px; margin-bottom: 20px;}
+/* POSTER IMAGE */
+.poster {width: 60%; border-radius: 10px; margin: 20px 0;}
+/* MOBILE FIX */
+@media (max-width:768px) {.poster {width: 90%;} .hero-logo {width: 100px;}}
