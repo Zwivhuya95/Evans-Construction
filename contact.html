@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Evans Construction offers paving, painting, renovation, aluminium, landscaping services.">
+    <meta name="keywords" content="Aluminium, paving, painting, landscaping, renovation">
+    <meta name="author" content="Zwivhuya Mmbobo">
+    <title>Contact Us | Evans Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Contact section & contact form -->
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt="Evans Construction"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="impact.html">Impact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <!-- Direct Contact info display area -->
+             <div class="contact-info-display">
+                <p><strong>Phone:</strong><a href="tel:0636030702">063 603 0702</a></p>
+                <p><strong>Email:<a href="email:apsthendoemulaudzy@icloud.com">apsthendoemulaudzy@icloud.com</a></strong></p>
+             </div>
+            <!-- CONTACT FORM -->
+        <form class="contact-form">
+            <label>Full Name</label>
+            <input type="text" id="name" required>
+            <label>Email</label>
+            <input type="email" id="email" required>
+            <label>Phone Number</label>
+            <input type="tel" id="phone" required>
+            <label>Service</label>
+            <select required>
+                <option>Paving</option>
+                <option>Painting</option>
+                <option>Renovation</option>
+                <option>Aluminium</option>
+                <option>Landscaping</option>
+            </select>
+            <label>Message</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Submit</button>
+            <div id="result"></div>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Evans Construction. All right reserved</p>
+    </footer>
+    <a href="https://" class="whatsapp-float" target="_blank">Chat on whatsapp</a>
+    <script src="script.js"></script>
+</body>
+</html>
